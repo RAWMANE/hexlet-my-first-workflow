@@ -2,7 +2,6 @@ name: show-directory
 on: push
 jobs:
   build:
-    # операционная система для работы воркфлоу
     runs-on: ubuntu-latest
     steps: 
       - uses: actions/checkout@v4
